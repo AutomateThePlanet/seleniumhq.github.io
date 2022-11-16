@@ -10,13 +10,13 @@ description: >
   Start on top of hundreds of best practices features and integrations.
 ---
 Over the last decade, a large ecosystem of Open Source projects has sprouted up around Selenium. Selenium is often used for automating web applications for testing purposes, but it does not include a testing framework.
-Nowadays, Selenium Ecosystem initiatives try to give popularity to popular open-source test automation frameworks maintained by people outside of core Selenium maintainers.
+Nowadays, Selenium Ecosystem initiatives try to give popularity to popular open-source test automation frameworks maintained by people outside of the core Selenium maintainers.
 One of these frameworks is BELLATRIX, invented by [Anton Angelov](https://www.linkedin.com/in/angelovstanton/). It has two versions - C# and Java.
-A testing framework is an abstraction in which common code providing generic functionality (which can be selectively overridden) for testing different aspects of our applications- UI, API, security, performance and many other.
+A testing framework is an abstraction in which common code provides generic functionality (which can be selectively overridden) for testing different aspects of our applications- UI, API, security, performance, and many others.
 
 ## BELLATRIX Test Automation Framework ##
-The first version of **[BELLATRIX](https://bellatrix.solutions/)** appeared on 26 December 2017. It was available only for C# initially but written on new back then .NET Core, allowing the framework to be used on all major operating systems (cross-platform).
-One huge advantage of BELLATRIX is cross-technology readiness. It allows you to write tests for different technologies such as Web, Mobile, Desktop, and API. For me, this also includes a similar API. In BELLATRIX, we strive the API for different modules to be as identical as possible.
+The first version of **[BELLATRIX](https://bellatrix.solutions/)** appeared on 26 December 2017. It was available only for C# initially, but written on the new back then .NET Core, allowing the framework to be used on all major operating systems (cross-platform).
+One huge advantage of BELLATRIX is its cross-technology readiness. It allows you to write tests for different technologies such as Web, Mobile, Desktop, and API. In BELLATRIX, we strive the API for different modules to be as identical as possible.
 
 The usage is simple. We suggest cloning BELLATRIX as a GIT sub-module. Then, any customizations, tests, and project-specific plug-ins should be placed in a project outside the BELLATRIX cloned repository. This way, you can quickly update to the latest version.
 
@@ -33,15 +33,15 @@ The usage is simple. We suggest cloning BELLATRIX as a GIT sub-module. Then, any
 Let's investigate how easy it is to create your first test with BELLATRIX in 15 minutes. The sample will showcase how to create a very basic test login into a website:
 {{< figure src="login-form.png" class="img-responsive w-50" >}}
 
-1. Open the BellatrixTestFramework.sln
+1. Open the **BellatrixTestFramework.sln**
 
 {{< figure src="open_the_sln.png" class="img-responsive w-50" >}}
 
-2. Under the starthere folder find the project your prefer: web, mobile, desktop, API
+2. Under the **starthere** folder find the project your prefer: web, mobile, desktop, API
 
 {{< figure src="bellatrix-projects-structure.png" class="img-responsive w-50" >}}
 
-3. Open the BellatrixLoginTest.cs file. There you will find a sample test automating the login. 
+3. Open the **BellatrixLoginTest.cs** file. There you will find a sample test automating the login.
 
 ```csharp
 [TestClass]
